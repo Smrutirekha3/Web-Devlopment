@@ -1,0 +1,20 @@
+let firstNum=10;
+console.log(firstNum);
+
+
+let first_num=5;
+console.log(first_num);
+
+let string="Smruti";
+console.log(string);
+console.log("Smruti");
+
+let float=3.14;
+console.log(float);
+
+let emptyValue=null;
+console.log(emptyValue);
+
+let isJavascriptFun=true;
+console.log(isJavascriptFun);
+
