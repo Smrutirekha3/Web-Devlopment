@@ -1,0 +1,9 @@
+let sentence ="Hello,my name is Smruti";
+let myName = "Smruti";
+
+if(sentence.includes(myName)){
+    console.log("My name is Smruti");
+}
+else{
+    console.log("My name is not present in the sentence");
+}
