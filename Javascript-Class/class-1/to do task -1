@@ -11,4 +11,6 @@ console.log(string.split());//[ 'She is a student' ]
 console.log(string.split(","));//[ 'she is a student' ]
 console.log(string.replace("student","Geeta"));//She is Geeta
 console.log(string.includes("student"));//true
-
+let min = 10;
+let max = 50;
+let random =console.log(Math.floor (Math.random())*(max-min+1)))+min;
