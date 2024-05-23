@@ -1,3 +1,5 @@
+//21-05-2024
+
 //Question-1://todo? Print your birthday in the console using the Date object.
 let birthday = new Date("2003-08-10");
 console.log(birthday);//2003-08-10T00:00:00.000Z
@@ -67,6 +69,42 @@ let myArray = [10, 20, 30];
 myArray.push(40);
 console.log(myArray.pop());
 console.log(myArray);//[ 10, 20, 30 ]
+
+//22-05-2024
+
+//Exercise 1: Manipulate an Array
+
+//Create an array of numbers.
+//Add a number to the end.
+//Remove the first number
+
+//Ans: 
+let nums = [1,8,12,15,54];
+nums.push(67);
+console.log(nums);//[ 1, 8, 12, 15, 54, 67 ]
+console.log(nums.shift());//1
+console.log(nums);//[ 8, 12, 15, 54, 67 ]
+
+//Exercise 2: Combining Arrays
+
+//Create two arrays of different fruit types.
+//Merge them into one array.
+//Remove any duplicate fruits
+
+
+//Ans:
+
+let fruits1 = ["apple","grape","banana"];
+let fruits2 = ["watermelon","mango","banana"];
+let newfruits = fruits1.concat(fruits2);
+console.log(newfruits);//[ 'apple', 'grape', 'banana', 'watermelon', 'mango', 'banana' ]
+ 
+
+
+
+
+
+
 
 
 
